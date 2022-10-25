@@ -21,14 +21,7 @@ int main()
 }
 
 
-
-
-
-
-
-
-
-
+---------------------------------------------------------------------
 
 
 #include <iostream>
@@ -58,6 +51,32 @@ int main()
     }
 
     return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+
+int main()
+{
+	bool nula = false;
+	int sbor = 0;
+	int a;
+	do
+	{
+		
+		std::cin >> a;
+		sbor += a;
+		if (a == 0)
+		{
+			nula = true;
+		}
+
+	} 
+	while (nula!=true);
+
+	std::cout << sbor;
+   
 }
 
 
